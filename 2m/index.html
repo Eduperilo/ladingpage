@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fields - Gestão Financeira</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-container">
+    <h1 class="logo">Fields<span>.</span></h1>
+    <nav class="menu">
+      <ul class="nav-links">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <h2 class="fade-in">Transforme Suas Finanças</h2>
+    <p class="fade-in delay">Consultoria personalizada para sair do vermelho e alcançar estabilidade.</p>
+    <a href="#contato" class="btn-primary fade-in delay2">Fale Conosco</a>
+  </div>
+</section>
+<!-- No fim do header -->
+<div class="wave-transition">
+    <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+      <path fill="#0a0a0a" d="M0,96L1440,0L1440,320L0,320Z"></path>
+    </svg>
+  </div>
+  
+<!-- Serviços -->
+<section id="servicos" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Nossos Serviços</h2>
+        </div>
+        
+        <div class="services-tabs">
+            <button class="tab-btn active" data-target="empresas">Para Empresas</button>
+            <button class="tab-btn" data-target="pessoas">Para Pessoas Físicas</button>
+            <button class="tab-btn" data-target="combo">Combo Empresarial + Pessoal</button>
+        </div>
+        
+        <div class="tab-content active" id="empresas">
+            <div class="grid grid-3">
+                <div class="price-card animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Básico</h3>
+                        <div class="price">R$ 799<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Análise financeira inicial</li>
+                            <li>Organização do fluxo de caixa</li>
+                            <li>Controle básico de despesas</li>
+                            <li>Relatório mensal simplificado</li>
+                            <li>Suporte por e-mail</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+                
+                <div class="price-card featured animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Intermediário</h3>
+                        <div class="price">R$ 1.499<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Tudo do Pacote Básico</li>
+                            <li>Planejamento tributário</li>
+                            <li>Análise de custos e precificação</li>
+                            <li>Projeções financeiras</li>
+                            <li>Reuniões mensais de acompanhamento</li>
+                            <li>Suporte por telefone e e-mail</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-primary">Contratar</a>
+                </div>
+                
+                <div class="price-card animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Premium</h3>
+                        <div class="price">R$ 2.499<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Tudo do Pacote Intermediário</li>
+                            <li>Consultoria estratégica</li>
+                            <li>Análise de investimentos</li>
+                            <li>Dashboard financeiro personalizado</li>
+                            <li>Reuniões quinzenais</li>
+                            <li>Suporte prioritário 24/7</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="pessoas">
+            <div class="grid grid-3">
+                <div class="price-card animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Básico</h3>
+                        <div class="price">R$ 299<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Diagnóstico financeiro</li>
+                            <li>Organização do orçamento pessoal</li>
+                            <li>Planilha de controle financeiro</li>
+                            <li>Orientação para quitação de dívidas</li>
+                            <li>Suporte por e-mail</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+                
+                <div class="price-card featured animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Intermediário</h3>
+                        <div class="price">R$ 599<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Tudo do Pacote Básico</li>
+                            <li>Planejamento financeiro personalizado</li>
+                            <li>Análise de investimentos existentes</li>
+                            <li>Recomendações de investimentos</li>
+                            <li>Reunião mensal de acompanhamento</li>
+                            <li>Suporte por telefone e e-mail</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-primary">Contratar</a>
+                </div>
+                
+                <div class="price-card animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Premium</h3>
+                        <div class="price">R$ 999<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Tudo do Pacote Intermediário</li>
+                            <li>Planejamento de aposentadoria</li>
+                            <li>Estratégias fiscais avançadas</li>
+                            <li>Gestão de patrimônio</li>
+                            <li>Reuniões quinzenais</li>
+                            <li>Suporte prioritário 24/7</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="combo">
+            <div class="grid grid-3">
+                <div class="price-card animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Básico</h3>
+                        <div class="price">R$ 999<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Pacote Básico Empresarial</li>
+                            <li>Pacote Básico Pessoal</li>
+                            <li>Integração entre finanças pessoais e empresariais</li>
+                            <li>Economia de 10% em relação aos pacotes separados</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+                
+                <div class="price-card featured animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Intermediário</h3>
+                        <div class="price">R$ 1.899<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Pacote Intermediário Empresarial</li>
+                            <li>Pacote Intermediário Pessoal</li>
+                            <li>Estratégia integrada de crescimento</li>
+                            <li>Planejamento tributário otimizado</li>
+                            <li>Economia de 10% em relação aos pacotes separados</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-primary">Contratar</a>
+                </div>
+                
+                <div class="price-card animate-on-scroll">
+                    <div class="price-card-header">
+                        <h3 class="price-card-title">Pacote Premium</h3>
+                        <div class="price">R$ 3.149<span>/mês</span></div>
+                    </div>
+                    <div class="price-card-features">
+                        <ul>
+                            <li>Pacote Premium Empresarial</li>
+                            <li>Pacote Premium Pessoal</li>
+                            <li>Consultoria estratégica completa</li>
+                            <li>Gestão de patrimônio integrada</li>
+                            <li>Planejamento sucessório</li>
+                            <li>Economia de 10% em relação aos pacotes separados</li>
+                        </ul>
+                    </div>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-info animate-on-scroll">
+            <h3>Benefícios Adicionais</h3>
+            <div class="grid grid-2">
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="images/icons/money.svg" alt="Desconto">
+                    </div>
+                    <h4>Descontos para Contratos Longos</h4>
+                    <p>Ganhe 10% de desconto em contratos semestrais e 15% em contratos anuais.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="images/icons/check.svg" alt="Personalização">
+                    </div>
+                    <h4>Pacotes Personalizáveis</h4>
+                    <p>Adicione serviços específicos ao seu pacote conforme sua necessidade (taxa adicional).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sobre Nós -->
+<section id="sobre" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Sobre Nós</h2>
+        </div>
+        <div class="grid grid-2">
+            <div class="animate-on-scroll">
+                <h3>Nossa Missão</h3>
+                <p>Na Fields Finanças, nossa missão é transformar a relação das pessoas e empresas com o dinheiro, proporcionando clareza, controle e crescimento financeiro sustentável. Acreditamos que o conhecimento financeiro é a base para a prosperidade e trabalhamos para torná-lo acessível a todos.</p>
+                
+                <h3>Nossa Visão</h3>
+                <p>Ser reconhecida como a consultoria financeira mais confiável e inovadora do mercado, criando um impacto positivo na vida financeira de nossos clientes e contribuindo para o desenvolvimento econômico da sociedade.</p>
+                
+                <h3>Nossos Valores</h3>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="images/icons/transparency.svg" alt="Transparência">
+                        </div>
+                        <h4 class="card-title">Transparência</h4>
+                        <p>Comunicação clara e honesta em todos os processos.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="images/icons/check.svg" alt="Excelência">
+                        </div>
+                        <h4 class="card-title">Excelência</h4>
+                        <p>Compromisso com a qualidade e melhoria contínua.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="images/icons/support.svg" alt="Empatia">
+                        </div>
+                        <h4 class="card-title">Empatia</h4>
+                        <p>Compreensão das necessidades individuais de cada cliente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animate-on-scroll">
+                <h3>Nossos Fundadores</h3>
+                <div class="card">
+                    <h4>Marlon de Oliveira Campos</h4>
+                    <p>Especialista em gestão financeira com mais de 10 anos de experiência no mercado. Formado em Administração com especialização em Finanças Corporativas, Marlon desenvolveu uma metodologia única que combina análise estratégica e planejamento personalizado.</p>
+                </div>
+                <div class="card">
+                    <h4>Pedro Oliveira da Costa</h4>
+                    <p>Consultor financeiro com expertise em investimentos e planejamento tributário. Com formação em Economia e certificação CFP (Certified Financial Planner), Pedro traz uma visão holística para o planejamento financeiro, integrando aspectos pessoais e empresariais.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>
